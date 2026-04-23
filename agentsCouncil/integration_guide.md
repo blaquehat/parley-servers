@@ -10,7 +10,7 @@ To add this to Zed, open your settings (Cmd+,) or `~/Library/Application Support
   "context_servers": {
     "agents-council": {
       "command": "node",
-      "args": ["~/Development/uwmed/.parley-servers/agentsCouncil/server.js"]
+      "args": ["/.parley-servers/agentsCouncil/server.js"]
     }
   }
 }
@@ -24,7 +24,7 @@ If you are using the MCP extension for GitHub Copilot, add the server to your co
   "mcpServers": {
     "agents-council": {
       "command": "/usr/local/bin/node",
-      "args": ["~/Development/uwmed/.parley-servers/agentsCouncil/server.js"]
+      "args": ["/.parley-servers/agentsCouncil/server.js"]
     }
   }
 }
@@ -37,8 +37,8 @@ If you are sharing this repo with teammates, the `~/` path is a good start, but 
 1. Clone the repo.
 2. Run `npm install` inside the `.parley-servers/agentsCouncil` directory.
 3. In their IDE, they should use their specific path:
-   - **Mac**: `/Users/USERNAME/Development/uwmed/.parley-servers/agentsCouncil/server.js`
-   - **Linux**: `/home/USERNAME/Development/uwmed/.parley-servers/agentsCouncil/server.js`
+   - **Mac**: `/Users/USERNAME/project/.parley-servers/agentsCouncil/server.js`
+   - **Linux**: `/home/USERNAME/project/.parley-servers/agentsCouncil/server.js`
 
 **Pro Tip:** If their IDE supports it (like VS Code), they can use the `${workspaceFolder}` variable:
 `"args": ["${workspaceFolder}/.parley-servers/agentsCouncil/server.js"]`
