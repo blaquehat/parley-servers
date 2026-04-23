@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+
+# Local Data & State (DO NOT COMMIT)
+*/state.json
+*/dragoman_cache.db
+*/dragoman.log
+*/.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.local
+
+# Project-specific Librarian Data (lives in .agents/ in the host project)
+# But we exclude any accidental local copies here.
+librarian/
+journals/
+anatomy.json
+cerebrum.json
+session_ledger.json
