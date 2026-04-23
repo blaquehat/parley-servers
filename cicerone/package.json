@@ -1,5 +1,5 @@
 {
-  "name": "agent-total-recall",
+  "name": "cicerone",
   "version": "1.0.0",
   "description": "Session memory MCP server. Provides reliable file I/O for the SessionMemory skill across all IDEs.",
   "main": "index.js",
