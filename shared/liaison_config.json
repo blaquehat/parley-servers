@@ -1,11 +1,11 @@
 {
   "lms": {
-    "HOST": "http://vesalius.local:1234",
-    "API_KEY": "sk-lm-GlrWY2m8:diJKEisorjP4XB2CkvWc",
+    "HOST": "http://box.local:1234",
+    "API_KEY": " ",
     "MODEL": "lmstudio-community/gemma-4-e2b-it"
   },
   "ollama": {
-    "HOST": "http://vesalius.local:11434",
+    "HOST": "http://box.local:11434",
     "MODELS": ["qwen2.5-coder:latest", "gemma4:e4b"]
   }
 }
